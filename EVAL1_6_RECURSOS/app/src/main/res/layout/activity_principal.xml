@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vanessatrevizo.eval1_6_recursos.Principal">
+
+    <ImageView
+        android:id="@+id/imgvwimagen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/flor"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="509dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp">
+
+        <Button
+            android:id="@+id/btnCambiar"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="388dp"
+            android:layout_height="61dp"
+            android:layout_marginEnd="148dp"
+            android:background="@android:drawable/btn_default"
+            android:backgroundTint="@android:color/darker_gray"
+            android:contentDescription="Cambio de imagen"
+            android:onClick="onClick"
+            android:text="Cambiar"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="402dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

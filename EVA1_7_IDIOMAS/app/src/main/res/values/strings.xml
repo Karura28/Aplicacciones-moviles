@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EVA1_7_IDIOMAS</string>
+    <string name="idioma_sp">Idioma:</string>
+    <string name="espanol_sp">Español</string>
+    <string name="ingles_sp">Ingles</string>
+    <string name="eti_nom_sp">Nombre:</string>
+    <string name="eti_ape_sp">Apellido:</string>
+    <string name="eti_edad_sp">Genero:</string>
+    <string name="hint_nom_sp">Introduce tu nombre</string>
+    <string name="hint_ape_sp">Introduce tu apellido</string>
+    <string name="hint_edad_sp">Introduce tu edad</string>
+    <string name="genero_sp">Genero:</string>
+    <string name="mas_sp">Masculino</string>
+    <string name="fem_sp">Femenino</string>
+
+    <string name="idioma_in">Language</string>
+    <string name="espanol_in">Español</string>
+    <string name="ingles_in">Ingles</string>
+    <string name="eti_nom_in">First name:</string>
+    <string name="eti_ape_in">Last name:</string>
+    <string name="eti_edad_in">Age:</string>
+    <string name="hint_nom_in">Your first name</string>
+    <string name="hint_ape_in">Your second name</string>
+    <string name="hint_edad_in">Your age</string>
+    <string name="genero_in">Sex:</string>
+    <string name="mas_in">Male</string>
+    <string name="fem_in">Female</string>
+</resources>

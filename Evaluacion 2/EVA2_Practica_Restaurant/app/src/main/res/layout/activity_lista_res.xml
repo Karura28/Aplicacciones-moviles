@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lista_res"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carloshernandez.eva2_practica_restaurant.ListaRes">
+
+    <ImageView
+        app:srcCompat="@drawable/barrafinamini"
+        android:id="@+id/imgVwRestau"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitStart" />
+
+    <TextView
+        android:text="Restaurant Gourmet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtVwTiposRes"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/TxtVwNRes"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Barra Fina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtVwNRes"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
